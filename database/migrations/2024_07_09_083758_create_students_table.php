@@ -20,7 +20,7 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->date('birthday');
             $table->string('department');
-            $table->float('weight');
+            $table->double('weight');
             $table->ipAddress('ip_adress');
             $table->timestamps();
         });
