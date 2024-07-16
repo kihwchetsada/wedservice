@@ -26,13 +26,11 @@ class CountrySeeder extends Seeder
               'name' => "พม่า",
               'created_at' => now(),
             ],
-
             
             [
                 'name' => "มาเลเซีย",
                 'created_at' => now(),
             ],
-
             
             [
                 'name' => "เยอรมันตะวันออก",
