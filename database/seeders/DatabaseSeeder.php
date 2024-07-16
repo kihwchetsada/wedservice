@@ -3,6 +3,9 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\Province;
+use App\Models\Student;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -17,6 +20,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CountrySeeder::class,
             RegionSeeder::class,
+            ProvinceSeeder::class,
+        
         ]);
     }
 }

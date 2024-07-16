@@ -33,7 +33,7 @@ class CountrySeeder extends Seeder
             ],
             
             [
-                'name' => "เยอรมันตะวันออก",
+                'name' => "สาธารณรัฐประชาธิปไตยเยอรมนี",
                 'created_at' => now(),
             ],
             
