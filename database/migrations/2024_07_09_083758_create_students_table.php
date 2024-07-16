@@ -18,10 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('surname');
             $table->string('email')->unique();
-            $table->date('birthday');
-            $table->string('department');
-            $table->double('weight');
-            $table->ipAddress('ip_adress');
+            $table->foreignId('province_id');
             $table->timestamps();
         });
     }
