@@ -16,9 +16,33 @@ class CountrySeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('Country')->insert([
+        DB::table('countries')->insert([
+            [
             'name' => "ไทย",
             'created_at' => now(),
+            ],
+
+            [
+              'name' => "พม่า",
+              'created_at' => now(),
+            ],
+
+            
+            [
+                'name' => "มาเลเซีย",
+                'created_at' => now(),
+            ],
+
+            
+            [
+                'name' => "เยอรมันตะวันออก",
+                'created_at' => now(),
+            ],
+            
+            [
+                'name' => "เยอรมันตะวันตก",
+                'created_at' => now(),
+            ],
         ]);
     }
 }
