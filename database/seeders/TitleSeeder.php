@@ -15,7 +15,7 @@ class TitleSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('regions')->insert([ 
+        DB::table('titles')->insert([ 
             [
                 'title' => 'นาย',
                 'created_at' => now(),

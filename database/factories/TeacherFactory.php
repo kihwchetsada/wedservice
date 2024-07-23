@@ -18,7 +18,7 @@ class TeacherFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this->faker->title,
+            'province_id'=> Province::inRandomOrder()->first()->id,
             'name' => $this->faker->name,
             'surname' => $this->faker->lastName,
             'email' => $this->faker->email,

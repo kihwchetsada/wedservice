@@ -19,7 +19,9 @@ class DatabaseSeeder extends Seeder
             CountrySeeder::class,
             RegionSeeder::class,
             ProvinceSeeder::class,
+            TitleSeeder::class
         ]);
         \App\Models\Student::factory(100)->create();
+        \App\Models\Teacher::factory(100)->create();
     }
 }
