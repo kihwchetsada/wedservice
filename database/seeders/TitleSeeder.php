@@ -19,20 +19,17 @@ class TitleSeeder extends Seeder
             [
                 'title' => 'นาย',
                 'created_at' => now(),
-                'country_id'=> 1,
                 ],
 
                 [
                     'title' => 'นาง',
                     'created_at' => now(),
-                    'country_id'=> 2,
                     ],
 
                     
                 [
                     'title' => 'นางสาว',
                     'created_at' => now(),
-                    'country_id'=> 3,
                     ],
         ]);
     }

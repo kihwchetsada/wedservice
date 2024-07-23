@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Province;
+use App\Models\Title;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -18,7 +19,7 @@ class TeacherFactory extends Factory
     public function definition()
     {
         return [
-            'province_id'=> Province::inRandomOrder()->first()->id,
+            'title_id'=> Title::inRandomOrder()->first()->id,
             'name' => $this->faker->name,
             'surname' => $this->faker->lastName,
             'email' => $this->faker->email,
